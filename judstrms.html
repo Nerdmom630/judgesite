@@ -1,0 +1,64 @@
+﻿<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Geostar+Fill&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
+<header>
+<h1>JudgeDreaddSloth</h1>
+<img id="icon" alt="" src="judicon.jpg"/>
+<nav>
+<ul>
+<li><a href="judindex.html">Home</a></li>
+<li><a href="judstrms.html">Adventure Time</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AV9jlburH-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="channel"></div>
+<script type="text/javascript">
+  var options = {
+    width: 440,
+    height: 440,
+    channel: "judgedreaddsloth",
+    
+  };
+  var player = new Twitch.Player("channel", options);
+  player.setVolume(0.5);
+</script>
+<div id="links">
+<i style='font-size:24px' class='fas'>&#xf6ec;<p>Follow Him Here!</p></i>
+<i style='font-size:24px' class='fab'>&#xf081;<a href="https://twitter.com/judge_kbz">Judge</a></i>
+<i style='font-size:24px' class='fab'>&#xf16d;<a href="https://www.instagram.com/railtrash/?hl=en">Judge!</a></i>
+<i style='font-size:24px' class='fab'>&#xf1e8;<a href="https://www.twitch.tv/judgedreaddsloth">EvenMorejudge!!</a></i>
+</div>
+</main>
+<style>
+body{
+background-color:#c6c6c6;
+}
+h1{
+font-weight:bold;
+font-size:45px;
+text-align:center;
+font-family: 'Geostar Fill', cursive;
+background:linear-gradient(to right, #ff1919 0%, #acacac 100%);
+}
+h2{
+font-weight:bold;
+}
+
+#icon{
+width:85px;
+height:85px;
+float:right;
+}
+#channel{
+float:right;
+}
+#links{
+float:left;
+}
+</style>
+</html>
